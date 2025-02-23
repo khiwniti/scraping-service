@@ -43,12 +43,11 @@ Server will default to **http://localhost:3036**
 
 Do a HTTP GET:
 
-    http://localhost:3036/api/dom?url=https://news.ycombinator.com&selector=.title+a
+    http://localhost:3036/api/dom?url=https://www.wongnai.com/_api/businesses.json?_v=6.126&locale=th&regions=9681&page.size=100&forseo=true
 
 or simple with just Fetch:
 
-    http://localhost:3036/api/dom-simple?url=https://news.ycombinator.com&selector=.title+a
-
+    http://localhost:3036/api/dom-simple?url=api/dom?url=https://www.wongnai.com/_api/businesses.json?_v=6.126&locale=th&regions=9681&page.size=100&forseo=true
 Results:
 
     {
